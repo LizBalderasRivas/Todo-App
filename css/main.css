@@ -1,0 +1,75 @@
+*{
+	font-family: 'Quicksand', sans-serif;
+}
+.titulo{
+	background-color: #E6E6E6;
+}
+.margin-t{
+	margin-top: 5%;
+}
+.comment {
+  background-color: blue;
+  float: left;
+  width: 100%;
+  height: auto;
+}
+
+.comment-text-area {
+  float: left;
+  width:100%;
+  height: auto;
+  background-color: red;
+}
+
+.textinput {
+  float:left;
+  width: 100%;
+  height: 200px;
+  outline: none;
+  resize: none;
+  border: 1px solid #f0f0f0;
+}
+.boton{
+	border-radius: 20px;
+	padding:1%;
+}
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+ }
+ul li:hover {
+  background: #ddd;
+}
+span{
+	float: right;
+}
+
+
+@media screen and (min-width: 700px ){
+	.glyphicon-info-sign{
+		display: none;   /*para hacer desaparecer el icono*/
+	}
+	.boton{
+		background-color: #2E9AFE;
+		border-radius: 8px;
+		padding: 10px;
+		color: white;
+		
+	}
+}
+
+@media screen and (min-width: 400px ) and (max-width: 700px){
+	.glyphicon-trash{
+		display: none;   /*para hacer desaparecer el icono*/
+	}
+}
+
+
+
+
+ 
+
